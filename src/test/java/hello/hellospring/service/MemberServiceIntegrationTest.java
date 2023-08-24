@@ -18,6 +18,7 @@ class MemberServiceIntegrationTest {
     @Autowired
     MemberRepository memberRepository;
 
+    //커밋여부확인
     @Test
     public void 회원가입() throws Exception {
         //Given
