@@ -27,6 +27,8 @@ public class HelloController {
     }
     //test되는지 여부 확인
 
+
+
     @GetMapping("hello-string")
     @ResponseBody //제일 중요한거. HTTP 응답부 바디에 직접 넣어주겠다라는뜻. 이걸 쓸일은 거의 없음.
     public String helloString(@RequestParam("name") String name) {
