@@ -13,7 +13,6 @@ import javax.sql.DataSource;
 public class SpringConfig {
     private final DataSource dataSource;
     public SpringConfig(DataSource dataSource) {
-
         this.dataSource = dataSource;
     }
     @Bean
